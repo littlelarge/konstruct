@@ -25,6 +25,13 @@
     flex-flow: column;
 }
 
+.get-in-touch__container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-flow: column;
+}
+
 .header {
     background: url("./../images/background.png") center/cover no-repeat;
     color: white;
@@ -286,4 +293,38 @@
     font-size: .8125rem;
     line-height: 1.4375rem;
     letter-spacing: .0117rem;
+}
+
+.get-in-touch {
+    background: url("./../images/get-in-touch-background.png") center/cover no-repeat;
+}
+
+.get-in-touch__title {
+    font-family: 'Open Sans';
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    letter-spacing: .0094rem;
+    font-weight: bold;
+    color: #48555B;
+    width: 350px;
+    text-align: center;
+    padding: 120px 0 35px 0;
+}
+
+.get-in-touch__btn {
+    font-family: 'Open Sans';
+    font-size: .8125rem;
+    line-height: .9375rem;
+    letter-spacing: .0313rem;
+    font-weight: bold;
+    background: #00A4E5;
+    border: none;
+    color: white;
+    padding: 11px 26px;
+    margin: 0 0 231px 0;
+}
+
+.get-in-touch__btn:hover{
+    background: #FF3000;
+    transition: ease-in-out .1s;
 }
