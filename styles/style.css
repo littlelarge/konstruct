@@ -1,8 +1,24 @@
-.header {
+@import url("./reset.css");
+
+.container {
+    padding: 0 auto;
+    margin: 0 auto;
+    width: 942px;
+}
+
+.header__container {
     display: flex;
     justify-content: start;
     align-items: center;
     flex-flow: column;
+}
+
+.menu__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
     background: url("./../images/background.png") center/cover no-repeat;
     color: white;
 }
@@ -32,4 +48,51 @@
     line-height: .8125rem;
     letter-spacing: .2313rem;
     padding: 0 0 71px 0;
+}
+
+.menu__logo {
+    padding: 24.65px 0 24.31px 0;
+}
+
+.menu__menu {
+    display: flex;
+    align-items: center;
+    font-family: 'OpenSans';
+    font-size: .75rem;
+    line-height: .875rem;
+    letter-spacing: .0682rem;
+    padding: 0px;
+    color: #48555B;
+}
+
+.menu__menu-list {
+    display: flex;
+    justify-content: space-between;
+    width: 410px;
+    height: 100%;
+}
+
+.menu__menu-list-item {
+    display: flex;
+    flex-grow: 1;
+}
+
+.menu__menu-list-item:not(:first-child):not(:last-child) {
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__menu-list-item:first-child {
+    justify-content: start;
+    align-items: center;
+}
+
+.menu__menu-list-item:last-child {
+    justify-content: end;
+    align-items: center;
+}
+
+.menu__menu-list-item:hover {
+    transition: ease-in-out .1s;
+    color: #00A4E5;
 }
