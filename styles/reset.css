@@ -98,3 +98,11 @@ hr {
 input, select {
     vertical-align:middle;
 }
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+input {
+    border: none;
+}
