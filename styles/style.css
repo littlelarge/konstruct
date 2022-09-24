@@ -350,6 +350,7 @@
 
 .signup__form {
     display: flex;
+    width: 399px;
 }
 
 .signup__form-input {
@@ -358,8 +359,8 @@
     line-height: 1rem;
     letter-spacing: .0044rem;
     padding: 11px 16px 11px 16px;
-    width: 250px;
     color: #48555B;
+    flex-grow: 1;
 }
 
 .signup__form-btn {
@@ -377,4 +378,77 @@
 .signup__form-btn:hover {
     background: #FF3000;
     transition: ease-in-out .1s;
+}
+
+.footer {
+    background: #141A20;
+    color: white;
+    font-family: "Open Sans";
+    padding: 42px 0 0 0;
+}
+
+.footer__main-content-content:first-child {
+    display: flex;
+}
+
+.footer__descr {
+    padding: 0 71px 0 0;
+}
+
+.footer__title {
+    font-size: .6875rem;
+    line-height: .8125rem;
+    letter-spacing: .0529rem;
+    padding: 0 0 19px 0;
+}
+
+.footer__descr-logo {
+    padding: 0 0 15px 0;
+}
+
+.footer__descr-text {
+    font-size: .6875rem;
+    line-height: 1.1875rem;
+    letter-spacing: .0531rem;
+    width: 250px;
+}
+
+.footer__links {
+    padding: 0 58px 0 0;
+}
+
+.footer__links-lists {
+    display: flex;
+    justify-content: space-between;
+    font-size: .6875rem;
+    line-height: 1.5625rem;
+    letter-spacing: .0529rem;
+    font-weight: 600;
+    width: 262px;
+}
+
+.footer__contact-us-descr {
+    font-size: .6875rem;
+    line-height: 1rem;
+    letter-spacing: .0529rem;
+    width: 105px;
+    padding: 0 46px 40px 0;
+}
+
+.footer__social-networks {
+    display: flex;
+    justify-content: space-between;
+    width: 87px;
+    padding: 30px 0 0 0;
+}
+
+.footer__copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .6875rem;
+    line-height: .8125rem;
+    letter-spacing: .0529rem;
+    background: #171819;
+    padding: 22px 0 23px 0;
 }
